@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tres de Uno V1.1</title>
+    <link rel="stylesheet" href="Estilo.css" />
+  </head>
+  <body>
+    <header>
+      <button id="Menu">Menu</button>
+      <div class="Rotulo">
+        <h1>
+          <span>Tres de Uno Cosméticos </span> <br />Teléfono: (506) - 6356-
+          9575 <br />Correo: tresdeuno@gmail.com
+        </h1>
+      </div>
+      <button id="Datos">Información</button>
+      <div class="logo">Logo</div>
+    </header>
+    <aside>
+      <button onclick="Cerrar()" id="BJab">Jabones</button>
+      <button onclick="Abrir()" id="BSha">Shampoo</button>
+      <button onclick="Crema()" id="BCre">Cremas</button>
+    </aside>
+    <div class="Doc1" id="Pjabon">
+      <div class="Tarjeta1" id="T1">
+        <img src="/JCocoT.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Jabon de Coco</h3>
+        </div>
+        <div class="Texto1">
+          <p>Jabón de uso diario con esencia de coco para cuidado de la piel</p>
+        </div>
+      </div>
+      <div class="Tarjeta1" id="T1">
+        <img src="/JAve.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Jabon de Avena</h3>
+        </div>
+        <div class="Texto1">
+          <p>Jabón de Avena para Exfoliante</p>
+        </div>
+      </div>
+      <div class="Tarjeta1" id="T1">
+        <img src="/JCar.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Jabon Carbon Activado</h3>
+        </div>
+        <div class="Texto1">
+          <p>Jabón Especial con carbón activado</p>
+        </div>
+      </div>
+    </div>
+    <div class="Doc2" id="Pshampoo">
+      <div class="Tarjeta1" id="T1">
+        <img src="/Sshs1.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Shampoo Solido</h3>
+        </div>
+        <div class="Texto1">
+          <p>Shampoo de uso diario solido</p>
+        </div>
+      </div>
+      <div class="Tarjeta1" id="T1">
+        <img src="/Sshs2.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Shampoo Solido</h3>
+        </div>
+        <div class="Texto1">
+          <p>Shampoo solido de usoo especial</p>
+        </div>
+      </div>
+      <div class="Tarjeta1" id="T1">
+        <img src="/Ssh1.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Shampoo Liquido</h3>
+        </div>
+        <div class="Texto1">
+          <p>Shampoo de uso general y especiales</p>
+        </div>
+      </div>
+    </div>
+    <div class="Doc2" id="Pcrema">
+      <div class="Tarjeta1" id="T1">
+        <img src="/Cre1.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Cremas y Tratamientos</h3>
+        </div>
+        <div class="Texto1">
+          <p>Cremas uso general y tratamientos</p>
+        </div>
+      </div>
+      <div class="Tarjeta1" id="T1">
+        <img src="/Cree1.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Cremas Especificas</h3>
+        </div>
+        <div class="Texto1">
+          <p>Cremas y tratamientos especiales</p>
+        </div>
+      </div>
+      <div class="Tarjeta1" id="T1">
+        <img src="/Cosv.png" id="Jdiario1" />
+        <div class="Ti1">
+          <h3>Cosmeticos Varios</h3>
+        </div>
+        <div class="Texto1">
+          <p>Productos complementarios</p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">GambitoSoft&COPY; Agosto 2021 V1.1</footer>
+    <script type="text/javascript">
+      function Cerrar() {
+        document.getElementById("Pshampoo").style.visibility = "hidden";
+        document.getElementById("Pcrema").style.visibility = "hidden";
+        document.getElementById("Pjabon").style.visibility = "visible";
+      }
+      function Abrir() {
+        document.getElementById("Pshampoo").style.visibility = "visible";
+        document.getElementById("Pjabon").style.visibility = "hidden";
+        document.getElementById("Pcrema").style.visibility = "hidden";
+      }
+      function Crema() {
+        document.getElementById("Pshampoo").style.visibility = "hidden";
+        document.getElementById("Pjabon").style.visibility = "hidden";
+        document.getElementById("Pcrema").style.visibility = "visible";
+      }
+    </script>
+  </body>
+</html>
