@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: rgb(87, 145, 87);
+}
+
+span {
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 0.8em;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5.5em;
+    background-image: url("fondometal2V1.png");
+    background-size: cover;
+}
+
+.Rotulo {
+    display: flex;
+    text-align: center;
+}
+
+aside {
+    margin-top: 3px;
+    list-style: none;
+    position: absolute;
+    top: 5.5em;
+    left: 0;
+    height: 81vh;
+    width: 20em;
+    background-image: url("fondometal2V1.png");
+    background-size: cover;
+    border-radius: 0 5px 5px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    height: 1.9em;
+    background-image: url("fondometal2V1.png");
+    background-size: cover;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.9em;
+    color: white;
+    font-size: small;
+}
+
+#Pjabon {
+    position: absolute;
+    margin-top: 3px;
+    top: 5.5em;
+    left: 20.5em;
+    background-color: rgba(30, 110, 40, 0.6);
+    height: 81vh;
+    width: 75.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+#T1 {
+    width: 17em;
+    height: 22em;
+    margin: 8px;
+    text-align: center;
+    border-radius: 2px;
+    overflow: hidden;
+    background-image: url("Metal1V1.png");
+}
+
+#Jdiario1 {
+    width: 17em;
+    height: 22em;
+    border-radius: 2px 2px 10px 0;
+    transition: all 0.5s;
+}
+
+.Ti1 {
+    position: relative;
+    bottom: 3em;
+}
+
+.Tarjeta1:hover #Jdiario1 {
+    height: 8em;
+    width: 10em;
+    border: 1px solid white;
+}
+
+#Pshampoo {
+    position: absolute;
+    margin-top: 3px;
+    top: 5.5em;
+    left: 20.5em;
+    background-color: whitesmoke;
+    height: 81vh;
+    width: 75.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    visibility: hidden;
+}
+
+#Pcrema {
+    position: absolute;
+    margin-top: 3px;
+    top: 5.5em;
+    left: 20.5em;
+    background-color: rgba(34, 134, 109, 0.6);
+    height: 81vh;
+    width: 75.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    visibility: hidden;
+}
+
+aside #BJab {
+    position: absolute;
+    top: 2em;
+    left: 3em;
+}
+
+aside #BSha {
+    position: absolute;
+    top: 6em;
+    left: 3em;
+}
+
+aside #BCre {
+    position: absolute;
+    top: 10em;
+    left: 3em;
+}
+
+#BJab {
+    width: 11em;
+    height: 3.2em;
+    color: white;
+    background-color: rgba(30, 110, 40, 0.8);
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+#BSha {
+    width: 11em;
+    height: 3.2em;
+    color: white;
+    background-color: rgba(30, 110, 40, 0.8);
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+#BCre {
+    width: 11em;
+    height: 3.2em;
+    color: white;
+    background-color: rgba(30, 110, 40, 0.8);
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+#Menu {
+    width: 6em;
+    height: 3em;
+    color: white;
+    background-color: rgba(30, 110, 40, 0.8);
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+#Datos {
+    width: 9em;
+    height: 2.2em;
+    color: white;
+    background-color: rgba(30, 110, 40, 0.8);
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    color: yellow;
+    background-color: rgba(30, 110, 40, 0.6);
+    border-radius: 4px;
+}
+
+p {
+    color: white;
+}
